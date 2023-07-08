@@ -1,0 +1,151 @@
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.download {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.paper {
+  background-color: white;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+}
+
+.top-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name {
+  color: black;
+  font-size: xx-large;
+}
+
+.contact {
+  color: black;
+}
+
+.sub-headers {
+  color: black;
+  border-bottom: 2px solid black;
+  margin: 15px 0;
+}
+
+.intro {
+  color: black;
+  text-align: center;
+}
+
+.skills {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.skill-title {
+  color: black;
+  font-weight: bold;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  color: black;
+  font-size: large;
+}
+
+.project-link {
+  color: black;
+  font-size: 15px;
+}
+
+.project-link a {
+  color: black;
+  font-size: 15px;
+}
+
+.project-info {
+  color: black;
+  margin-left: 35px;
+  font-size: medium;
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-title {
+  color: black;
+}
+
+.work-title i {
+  color: black;
+}
+
+.work-info {
+  color: black;
+  margin-left: 35px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-title {
+  color: black;
+}
+
+.education-info {
+  color: black;
+  margin-left: 35px;
+}
+
+@media only screen and (max-width: 800px) {
+  .paper {
+    width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .project-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .education-title {
+    font-size: 16px;
+  }
+  p.education-title {
+    font-size: 15px;
+  }
+  .education-info {
+    margin: 0 0 15px 35px;
+  }
+
+  .work-info {
+    font-size: 15px;
+  }
+
+  p.work-title {
+    font-size: 13px;
+  }
+}

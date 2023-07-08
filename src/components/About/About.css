@@ -1,0 +1,13 @@
+#bio {
+  margin: 15px;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.Self {
+  width: 15%;
+  height: 35%;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+}

@@ -1,0 +1,66 @@
+.navbar {
+  width: 100%;
+  color: #fff;
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 35px;
+  margin: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mobile-icon {
+  display: none;
+}
+
+.nav-tags {
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    transition: 0.8s all ease;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .mobile-icon:hover {
+    color: white;
+  }
+
+  .right {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(#1b2735 0%, #090a0f 100%);
+  overflow-x: hidden;
+}

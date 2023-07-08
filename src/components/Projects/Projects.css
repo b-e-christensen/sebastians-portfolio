@@ -1,0 +1,64 @@
+.application-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.application-title span {
+  font-size: 22px;
+  cursor: text;
+}
+
+.repo-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.project-repo {
+  padding: 8px 20px;
+  background-color: black;
+  font-size: 25px;
+}
+
+.application-description {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0;
+}
+
+#work section a {
+  text-decoration: none;
+  margin: 10px;
+  height: 200px;
+  width: 100%;
+}
+
+.project-img {
+  object-fit: contain;
+  display: block;
+  margin: 10px auto;
+  width: 450px;
+}
+
+.project {
+  border-bottom: solid 10px black;
+  padding: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .project-img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .project-img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 301px) {
+  .project-img {
+    width: 275px;
+  }
+}
